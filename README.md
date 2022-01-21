@@ -17,3 +17,23 @@ WHEN I open API GET routes in Insomnia for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
+
+
+Video Walk Through Points to hit:
+- Show .env file
+- show connection.js file and sequelize connection
+- show how to SOURCE the schema.db file
+- show how to seed the db npm run seed
+- start the server npm start
+- Test GET ALL routes:
+    - categories
+    - products
+    - tags
+- Test all GET ID routes:
+    - single category
+    - single product
+    - single tag
+- Test all POST, PUT, DELETE routes:
+    - categories
+    - products
+    - tags
