@@ -98,7 +98,7 @@ router.post('/', (req, res) => {
 });
 
 // update product
-router.put("/:id", (req, res) => {
+router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
@@ -138,6 +138,7 @@ router.put("/:id", (req, res) => {
       res.status(400).json(err);
     });
 });
+
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
